@@ -1,0 +1,1365 @@
+2015-12-17 03:33:00.859+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 03:33:02.936+0000 INFO  [API] Successfully started database
+2015-12-17 03:33:03.081+0000 INFO  [API] Starting HTTP on port :7100 with 4 threads available
+19:33:03.549 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @3918ms
+2015-12-17 03:33:03.611+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 03:33:03.676+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+19:33:03.680 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+19:33:03.705 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@3dc9fb60{/,null,AVAILABLE}
+19:33:03.812 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+19:33:03.838 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@6343d4b9{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+19:33:04.275 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@162c4e0a{/db/manage,null,AVAILABLE}
+19:33:04.486 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@48f70b3d{/db/data,null,AVAILABLE}
+19:33:04.500 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+19:33:04.501 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@6ed8601d{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+19:33:04.614 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3083d26d{/,null,AVAILABLE}
+19:33:04.648 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@41782b1a{HTTP/1.1}{localhost:7100}
+19:33:04.649 [main] INFO  org.eclipse.jetty.server.Server - Started @5024ms
+2015-12-17 03:33:04.649+0000 INFO  [API] Server started on: http://localhost:7100/
+2015-12-17 03:33:04.649+0000 INFO  [API] Remote interface ready and available at [http://localhost:7100/]
+2015-12-17 04:06:58.644+0000 INFO  [API] Neo4j Server shutdown initiated by request
+20:06:58.651 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@41782b1a{HTTP/1.1}{localhost:7100}
+20:06:58.652 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3083d26d{/,null,UNAVAILABLE}
+20:06:58.655 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@6ed8601d{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+20:06:58.655 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@48f70b3d{/db/data,null,UNAVAILABLE}
+20:06:58.655 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@162c4e0a{/db/manage,null,UNAVAILABLE}
+20:06:58.656 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@6343d4b9{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+20:06:58.657 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@3dc9fb60{/,null,UNAVAILABLE}
+2015-12-17 04:06:58.664+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 04:06:58.713+0000 INFO  [API] Successfully stopped database
+2015-12-17 04:06:58.714+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 04:09:55.356+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 04:09:56.651+0000 INFO  [API] Successfully started database
+2015-12-17 04:09:56.726+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+20:09:56.975 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2544ms
+2015-12-17 04:09:57.029+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 04:09:57.073+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+20:09:57.078 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+20:09:57.113 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@1d385f57{/,null,AVAILABLE}
+20:09:57.189 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+20:09:57.208 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@44016f8d{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+20:09:57.681 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1da698e0{/db/manage,null,AVAILABLE}
+20:09:57.899 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4406da5d{/db/data,null,AVAILABLE}
+20:09:57.918 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+20:09:57.920 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@711cf7b3{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+20:09:58.025 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2a669850{/,null,AVAILABLE}
+20:09:58.055 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@6c245a33{HTTP/1.1}{localhost:7474}
+20:09:58.055 [main] INFO  org.eclipse.jetty.server.Server - Started @3636ms
+2015-12-17 04:09:58.056+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 04:09:58.057+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 04:10:05.511+0000 INFO  [API] Neo4j Server shutdown initiated by request
+20:10:05.519 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@6c245a33{HTTP/1.1}{localhost:7474}
+20:10:05.521 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2a669850{/,null,UNAVAILABLE}
+20:10:05.523 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@711cf7b3{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+20:10:05.523 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4406da5d{/db/data,null,UNAVAILABLE}
+20:10:05.523 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1da698e0{/db/manage,null,UNAVAILABLE}
+20:10:05.524 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@44016f8d{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+20:10:05.524 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@1d385f57{/,null,UNAVAILABLE}
+2015-12-17 04:10:05.530+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 04:10:05.564+0000 INFO  [API] Successfully stopped database
+2015-12-17 04:10:05.564+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 04:11:44.083+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 04:11:45.458+0000 INFO  [API] Successfully started database
+2015-12-17 04:11:45.550+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+20:11:45.828 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2453ms
+2015-12-17 04:11:45.879+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 04:11:45.939+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+20:11:45.944 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+20:11:45.978 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@1d385f57{/,null,AVAILABLE}
+20:11:46.049 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+20:11:46.069 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@44016f8d{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+20:11:46.562 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1da698e0{/db/manage,null,AVAILABLE}
+20:11:46.788 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4406da5d{/db/data,null,AVAILABLE}
+20:11:46.803 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+20:11:46.804 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@711cf7b3{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+20:11:46.912 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2a669850{/,null,AVAILABLE}
+20:11:46.937 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@6e32afcc{HTTP/1.1}{localhost:7474}
+20:11:46.938 [main] INFO  org.eclipse.jetty.server.Server - Started @3569ms
+2015-12-17 04:11:46.938+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 04:11:46.938+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 04:57:50.659+0000 INFO  [API] Neo4j Server shutdown initiated by request
+20:57:50.666 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@6e32afcc{HTTP/1.1}{localhost:7474}
+20:57:50.668 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2a669850{/,null,UNAVAILABLE}
+20:57:50.671 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@711cf7b3{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+20:57:50.672 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4406da5d{/db/data,null,UNAVAILABLE}
+20:57:50.672 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1da698e0{/db/manage,null,UNAVAILABLE}
+20:57:50.672 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@44016f8d{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+20:57:50.673 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@1d385f57{/,null,UNAVAILABLE}
+2015-12-17 04:57:50.677+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 04:57:50.743+0000 INFO  [API] Successfully stopped database
+2015-12-17 04:57:50.743+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 04:58:10.329+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 04:58:11.963+0000 INFO  [API] Successfully started database
+2015-12-17 04:58:12.024+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+20:58:12.270 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2955ms
+2015-12-17 04:58:12.322+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 04:58:12.386+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+20:58:12.393 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+20:58:12.428 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+20:58:12.512 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+20:58:12.534 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+20:58:13.059 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+20:58:13.254 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+20:58:13.274 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+20:58:13.275 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+20:58:13.381 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+20:58:13.406 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@8cc09c9{HTTP/1.1}{localhost:7474}
+20:58:13.406 [main] INFO  org.eclipse.jetty.server.Server - Started @4099ms
+2015-12-17 04:58:13.406+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 04:58:13.407+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:05:05.749+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:05:05.758 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@8cc09c9{HTTP/1.1}{localhost:7474}
+21:05:05.759 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:05:05.762 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:05:05.763 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:05:05.763 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:05:05.764 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:05:05.764 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:05:05.771+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:05:05.830+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:05:05.830+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:05:35.969+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:05:37.420+0000 INFO  [API] Successfully started database
+2015-12-17 05:05:37.486+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:05:37.737 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2822ms
+2015-12-17 05:05:37.783+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:05:37.844+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:05:37.848 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:05:37.876 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@1f51b469{/,null,AVAILABLE}
+21:05:37.952 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:05:37.974 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3c89f341{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:05:38.500 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3f6a4778{/db/manage,null,AVAILABLE}
+21:05:38.698 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5121b09c{/db/data,null,AVAILABLE}
+21:05:38.715 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:05:38.717 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@4eb35618{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:05:38.837 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@605df36e{/,null,AVAILABLE}
+21:05:38.861 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@677bb6bf{HTTP/1.1}{localhost:7474}
+21:05:38.861 [main] INFO  org.eclipse.jetty.server.Server - Started @3953ms
+2015-12-17 05:05:38.862+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:05:38.862+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:06:52.924+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:06:52.929 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@677bb6bf{HTTP/1.1}{localhost:7474}
+21:06:52.930 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@605df36e{/,null,UNAVAILABLE}
+21:06:52.931 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@4eb35618{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:06:52.931 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5121b09c{/db/data,null,UNAVAILABLE}
+21:06:52.932 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3f6a4778{/db/manage,null,UNAVAILABLE}
+21:06:52.932 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3c89f341{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:06:52.932 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@1f51b469{/,null,UNAVAILABLE}
+2015-12-17 05:06:52.937+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:06:52.987+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:06:52.987+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:07:10.200+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:07:11.845+0000 INFO  [API] Successfully started database
+2015-12-17 05:07:11.933+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:07:12.197 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2755ms
+2015-12-17 05:07:12.244+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:07:12.297+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:07:12.301 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:07:12.336 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:07:12.400 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:07:12.420 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:07:12.918 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:07:13.124 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:07:13.140 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:07:13.141 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:07:13.243 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:07:13.267 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@43ea053e{HTTP/1.1}{localhost:7474}
+21:07:13.267 [main] INFO  org.eclipse.jetty.server.Server - Started @3831ms
+2015-12-17 05:07:13.268+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:07:13.268+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:08:03.683+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:08:03.689 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@43ea053e{HTTP/1.1}{localhost:7474}
+21:08:03.690 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:08:03.691 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:08:03.691 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:08:03.691 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:08:03.692 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:08:03.692 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:08:03.698+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:08:03.755+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:08:03.755+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:09:29.123+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:09:30.658+0000 INFO  [API] Successfully started database
+2015-12-17 05:09:30.715+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:09:30.959 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2906ms
+2015-12-17 05:09:30.999+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:09:31.048+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:09:31.052 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:09:31.078 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:09:31.150 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:09:31.175 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:09:31.655 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:09:31.891 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:09:31.913 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:09:31.914 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:09:32.020 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:09:32.047 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@13008f{HTTP/1.1}{localhost:7474}
+21:09:32.047 [main] INFO  org.eclipse.jetty.server.Server - Started @4001ms
+2015-12-17 05:09:32.047+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:09:32.048+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:12:29.079+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:12:29.105 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@13008f{HTTP/1.1}{localhost:7474}
+21:12:29.106 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:12:29.108 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:12:29.108 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:12:29.109 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:12:29.109 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:12:29.109 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:12:29.114+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:12:29.170+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:12:29.170+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:12:42.952+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:12:44.633+0000 INFO  [API] Successfully started database
+2015-12-17 05:12:44.729+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:12:44.968 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @3042ms
+2015-12-17 05:12:45.016+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:12:45.083+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:12:45.087 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:12:45.131 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:12:45.207 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:12:45.227 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:12:45.723 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:12:45.922 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:12:45.937 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:12:45.938 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:12:46.069 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:12:46.107 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@510e16bd{HTTP/1.1}{localhost:7474}
+21:12:46.107 [main] INFO  org.eclipse.jetty.server.Server - Started @4190ms
+2015-12-17 05:12:46.108+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:12:46.108+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:15:13.910+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:15:13.917 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@510e16bd{HTTP/1.1}{localhost:7474}
+21:15:13.919 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:15:13.920 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:15:13.921 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:15:13.922 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:15:13.923 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:15:13.923 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:15:13.928+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:15:13.979+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:15:13.979+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:15:31.542+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:15:33.081+0000 INFO  [API] Successfully started database
+2015-12-17 05:15:33.159+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:15:33.399 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2872ms
+2015-12-17 05:15:33.436+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:15:33.482+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:15:33.488 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:15:33.515 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:15:33.588 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:15:33.606 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:15:34.052 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:15:34.298 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:15:34.312 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:15:34.313 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:15:34.414 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:15:34.441 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:15:34.442 [main] INFO  org.eclipse.jetty.server.Server - Started @3921ms
+2015-12-17 05:15:34.442+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:15:34.443+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:17:09.816+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:17:09.821 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:17:09.822 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:17:09.824 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:17:09.825 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:17:09.825 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:17:09.826 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:17:09.827 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:17:09.832+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:17:09.866+0000 ERROR [org.neo4j]: Exception when stopping org.neo4j.kernel.NeoStoreDataSource@5d1aba2e Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@2be2cbd4, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@687157f0]
+org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@2be2cbd4, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@687157f0]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+2015-12-17 05:17:09.868+0000 ERROR [org.neo4j]: Exception when stopping org.neo4j.kernel.impl.transaction.state.DataSourceManager@5cd161c2 Component 'org.neo4j.kernel.NeoStoreDataSource@5d1aba2e' failed to stop. Please see attached cause exception.
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.NeoStoreDataSource@5d1aba2e' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@2be2cbd4, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@687157f0]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 13 more
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+2015-12-17 05:17:09.870+0000 ERROR [org.neo4j]: Lifecycle exception Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@5ecefd55' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+org.neo4j.kernel.lifecycle.LifecycleException: Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@5ecefd55' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:578)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:200)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: java.lang.IllegalStateException: Cannot close the PageCache while files are still mapped:
+	neostore.counts.db.a (1 mapping)
+	neostore (1 mapping)
+	neostore.relationshipgroupstore.db (1 mapping)
+	neostore.schemastore.db (1 mapping)
+	neostore.nodestore.db (1 mapping)
+	neostore.nodestore.db.labels (1 mapping)
+	neostore.relationshipstore.db (1 mapping)
+	neostore.propertystore.db (1 mapping)
+	neostore.propertystore.db.arrays (1 mapping)
+	neostore.propertystore.db.strings (1 mapping)
+	neostore.propertystore.db.index (1 mapping)
+	neostore.propertystore.db.index.keys (1 mapping)
+	neostore.labeltokenstore.db (1 mapping)
+	neostore.labeltokenstore.db.names (1 mapping)
+	neostore.relationshiptypestore.db (1 mapping)
+	neostore.relationshiptypestore.db.names (1 mapping)
+	at org.neo4j.io.pagecache.impl.muninn.MuninnPageCache.close(MuninnPageCache.java:483)
+	at org.neo4j.kernel.impl.pagecache.PageCacheLifecycle.shutdown(PageCacheLifecycle.java:42)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:574)
+	... 9 more
+2015-12-17 05:17:09.871+0000 ERROR [org.neo4j]: Chained lifecycle exception Component 'org.neo4j.kernel.impl.transaction.state.DataSourceManager@5cd161c2' failed to stop. Please see attached cause exception.
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.state.DataSourceManager@5cd161c2' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.NeoStoreDataSource@5d1aba2e' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 10 more
+Caused by: org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@2be2cbd4, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@687157f0]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 13 more
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+2015-12-17 05:17:09.879+0000 ERROR [API] Database did not stop cleanly. Reason [Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@5ecefd55' from STOPPED to SHUTTING_DOWN. Please see attached cause exception]
+2015-12-17 05:17:09.880+0000 ERROR [org.neo4j]: Exception when stopping org.neo4j.server.database.LifecycleManagingDatabase@3bbd94a6 Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@5ecefd55' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+org.neo4j.kernel.lifecycle.LifecycleException: Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@5ecefd55' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:578)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:200)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: java.lang.IllegalStateException: Cannot close the PageCache while files are still mapped:
+	neostore.counts.db.a (1 mapping)
+	neostore (1 mapping)
+	neostore.relationshipgroupstore.db (1 mapping)
+	neostore.schemastore.db (1 mapping)
+	neostore.nodestore.db (1 mapping)
+	neostore.nodestore.db.labels (1 mapping)
+	neostore.relationshipstore.db (1 mapping)
+	neostore.propertystore.db (1 mapping)
+	neostore.propertystore.db.arrays (1 mapping)
+	neostore.propertystore.db.strings (1 mapping)
+	neostore.propertystore.db.index (1 mapping)
+	neostore.propertystore.db.index.keys (1 mapping)
+	neostore.labeltokenstore.db (1 mapping)
+	neostore.labeltokenstore.db.names (1 mapping)
+	neostore.relationshiptypestore.db (1 mapping)
+	neostore.relationshiptypestore.db.names (1 mapping)
+	at org.neo4j.io.pagecache.impl.muninn.MuninnPageCache.close(MuninnPageCache.java:483)
+	at org.neo4j.kernel.impl.pagecache.PageCacheLifecycle.shutdown(PageCacheLifecycle.java:42)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:574)
+	... 9 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.state.DataSourceManager@5cd161c2' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	... 8 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.NeoStoreDataSource@5d1aba2e' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 10 more
+Caused by: org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@2be2cbd4, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@687157f0]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 13 more
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+Exception in thread "Thread-13" java.lang.RuntimeException: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.server.database.LifecycleManagingDatabase@3bbd94a6' failed to stop. Please see attached cause exception.
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:57)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.server.database.LifecycleManagingDatabase@3bbd94a6' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	... 2 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@5ecefd55' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:578)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:200)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 5 more
+Caused by: java.lang.IllegalStateException: Cannot close the PageCache while files are still mapped:
+	neostore.counts.db.a (1 mapping)
+	neostore (1 mapping)
+	neostore.relationshipgroupstore.db (1 mapping)
+	neostore.schemastore.db (1 mapping)
+	neostore.nodestore.db (1 mapping)
+	neostore.nodestore.db.labels (1 mapping)
+	neostore.relationshipstore.db (1 mapping)
+	neostore.propertystore.db (1 mapping)
+	neostore.propertystore.db.arrays (1 mapping)
+	neostore.propertystore.db.strings (1 mapping)
+	neostore.propertystore.db.index (1 mapping)
+	neostore.propertystore.db.index.keys (1 mapping)
+	neostore.labeltokenstore.db (1 mapping)
+	neostore.labeltokenstore.db.names (1 mapping)
+	neostore.relationshiptypestore.db (1 mapping)
+	neostore.relationshiptypestore.db.names (1 mapping)
+	at org.neo4j.io.pagecache.impl.muninn.MuninnPageCache.close(MuninnPageCache.java:483)
+	at org.neo4j.kernel.impl.pagecache.PageCacheLifecycle.shutdown(PageCacheLifecycle.java:42)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:574)
+	... 9 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.state.DataSourceManager@5cd161c2' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	... 8 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.NeoStoreDataSource@5d1aba2e' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 10 more
+Caused by: org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@2be2cbd4, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@687157f0]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 13 more
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+2015-12-17 05:17:17.594+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:17:19.204+0000 INFO  [API] Successfully started database
+2015-12-17 05:17:19.280+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:17:19.517 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2671ms
+2015-12-17 05:17:19.566+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:17:19.623+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:17:19.626 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:17:19.659 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:17:19.735 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:17:19.758 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:17:20.255 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:17:20.463 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:17:20.478 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:17:20.479 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:17:20.577 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:17:20.599 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@926976{HTTP/1.1}{localhost:7474}
+21:17:20.599 [main] INFO  org.eclipse.jetty.server.Server - Started @3761ms
+2015-12-17 05:17:20.599+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:17:20.600+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:18:33.004+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:18:33.012 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@926976{HTTP/1.1}{localhost:7474}
+21:18:33.013 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:18:33.014 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:18:33.014 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:18:33.014 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:18:33.016 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:18:33.016 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:18:33.022+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:18:33.071+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:18:33.072+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:18:51.587+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:18:53.209+0000 INFO  [API] Successfully started database
+2015-12-17 05:18:53.282+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:18:53.537 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2680ms
+2015-12-17 05:18:53.581+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:18:53.633+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:18:53.638 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:18:53.675 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:18:53.749 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:18:53.770 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:18:54.239 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:18:54.467 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:18:54.481 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:18:54.482 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:18:54.586 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:18:54.611 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:18:54.612 [main] INFO  org.eclipse.jetty.server.Server - Started @3765ms
+2015-12-17 05:18:54.613+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:18:54.613+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:21:49.837+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:21:49.842 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:21:49.843 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:21:49.844 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:21:49.844 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:21:49.845 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:21:49.845 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:21:49.845 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:21:49.851+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:21:49.912+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:21:49.913+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:22:06.671+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:22:08.282+0000 INFO  [API] Successfully started database
+2015-12-17 05:22:08.346+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:22:08.600 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2932ms
+2015-12-17 05:22:08.640+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:22:08.700+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:22:08.708 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:22:08.746 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:22:08.835 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:22:08.858 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:22:09.353 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:22:09.580 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:22:09.600 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:22:09.601 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:22:09.716 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:22:09.742 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@3c7dad26{HTTP/1.1}{localhost:7474}
+21:22:09.742 [main] INFO  org.eclipse.jetty.server.Server - Started @4081ms
+2015-12-17 05:22:09.742+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:22:09.742+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:25:25.997+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:25:26.003 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@3c7dad26{HTTP/1.1}{localhost:7474}
+21:25:26.004 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:25:26.006 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:25:26.006 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:25:26.006 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:25:26.007 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:25:26.007 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:25:26.013+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:25:26.072+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:25:26.072+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:25:43.791+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:25:45.386+0000 INFO  [API] Successfully started database
+2015-12-17 05:25:45.463+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:25:45.708 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @3037ms
+2015-12-17 05:25:45.757+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:25:45.811+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:25:45.816 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:25:45.857 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:25:45.941 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:25:45.959 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:25:46.443 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:25:46.670 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:25:46.688 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:25:46.689 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:25:46.800 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:25:46.826 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@2c768505{HTTP/1.1}{localhost:7474}
+21:25:46.826 [main] INFO  org.eclipse.jetty.server.Server - Started @4161ms
+2015-12-17 05:25:46.827+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:25:46.827+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:32:19.978+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:32:19.987 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@2c768505{HTTP/1.1}{localhost:7474}
+21:32:19.988 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:32:19.989 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:32:19.990 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:32:19.990 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:32:19.990 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:32:19.991 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:32:19.994+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:32:20.074+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:32:20.074+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:32:34.543+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:32:36.116+0000 INFO  [API] Successfully started database
+2015-12-17 05:32:36.180+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:32:36.441 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2878ms
+2015-12-17 05:32:36.480+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:32:36.532+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:32:36.537 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:32:36.567 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:32:36.663 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:32:36.702 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:32:37.254 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:32:37.450 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:32:37.468 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:32:37.469 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:32:37.554 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:32:37.578 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@7638c2a{HTTP/1.1}{localhost:7474}
+21:32:37.578 [main] INFO  org.eclipse.jetty.server.Server - Started @4032ms
+2015-12-17 05:32:37.579+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:32:37.579+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:34:47.544+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:34:47.550 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@7638c2a{HTTP/1.1}{localhost:7474}
+21:34:47.551 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:34:47.552 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:34:47.552 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:34:47.552 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:34:47.553 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:34:47.554 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:34:47.558+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:34:47.602+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:34:47.602+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:35:03.461+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:35:05.019+0000 INFO  [API] Successfully started database
+2015-12-17 05:35:05.108+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:35:05.363 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2942ms
+2015-12-17 05:35:05.409+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:35:05.469+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:35:05.473 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:35:05.511 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:35:05.596 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:35:05.622 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:35:06.115 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:35:06.319 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:35:06.334 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:35:06.335 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:35:06.446 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:35:06.473 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:35:06.474 [main] INFO  org.eclipse.jetty.server.Server - Started @4057ms
+2015-12-17 05:35:06.475+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:35:06.475+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:35:37.641+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:35:37.646 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:35:37.648 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:35:37.649 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:35:37.650 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:35:37.650 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:35:37.651 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:35:37.651 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:35:37.656+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:35:37.709+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:35:37.710+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:35:48.539+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:35:50.134+0000 INFO  [API] Successfully started database
+2015-12-17 05:35:50.207+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:35:50.470 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2761ms
+2015-12-17 05:35:50.517+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:35:50.566+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:35:50.570 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:35:50.596 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:35:50.676 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:35:50.696 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:35:51.174 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:35:51.403 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:35:51.416 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:35:51.418 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:35:51.533 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:35:51.560 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:35:51.560 [main] INFO  org.eclipse.jetty.server.Server - Started @3857ms
+2015-12-17 05:35:51.560+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:35:51.561+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:36:16.493+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:36:16.501 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:36:16.502 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:36:16.503 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:36:16.503 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:36:16.503 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:36:16.504 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:36:16.504 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:36:16.509+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:36:16.550+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:36:16.550+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:36:26.349+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:36:28.029+0000 INFO  [API] Successfully started database
+2015-12-17 05:36:28.123+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:36:28.422 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2815ms
+2015-12-17 05:36:28.484+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:36:28.549+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:36:28.553 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:36:28.587 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:36:28.667 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:36:28.696 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:36:29.222 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:36:29.482 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:36:29.499 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:36:29.500 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:36:29.625 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:36:29.651 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5bb8a3f{HTTP/1.1}{localhost:7474}
+21:36:29.651 [main] INFO  org.eclipse.jetty.server.Server - Started @4052ms
+2015-12-17 05:36:29.652+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:36:29.652+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:38:00.476+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:38:00.483 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@5bb8a3f{HTTP/1.1}{localhost:7474}
+21:38:00.485 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:38:00.486 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:38:00.486 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:38:00.487 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:38:00.488 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:38:00.488 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:38:00.494+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:38:00.551+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:38:00.552+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:38:12.783+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:38:14.289+0000 INFO  [API] Successfully started database
+2015-12-17 05:38:14.360+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:38:14.632 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2795ms
+2015-12-17 05:38:14.695+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:38:14.759+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:38:14.764 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:38:14.793 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:38:14.865 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:38:14.880 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:38:15.370 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:38:15.607 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:38:15.631 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:38:15.633 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:38:15.746 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:38:15.772 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:38:15.773 [main] INFO  org.eclipse.jetty.server.Server - Started @3945ms
+2015-12-17 05:38:15.773+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:38:15.774+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:50:12.441+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:50:12.446 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:50:12.448 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:50:12.448 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:50:12.449 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:50:12.449 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:50:12.450 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:50:12.450 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:50:12.454+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:50:12.544+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:50:12.544+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:50:23.403+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:50:24.950+0000 INFO  [API] Successfully started database
+2015-12-17 05:50:25.039+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:50:25.283 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2860ms
+2015-12-17 05:50:25.327+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:50:25.382+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:50:25.386 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:50:25.416 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:50:25.491 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:50:25.513 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:50:26.010 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:50:26.234 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:50:26.253 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:50:26.255 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:50:26.369 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:50:26.397 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:50:26.398 [main] INFO  org.eclipse.jetty.server.Server - Started @3981ms
+2015-12-17 05:50:26.398+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:50:26.398+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:51:01.399+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:51:01.404 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:51:01.406 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:51:01.407 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:51:01.407 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:51:01.407 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:51:01.408 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:51:01.409 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:51:01.417+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:51:01.472+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:51:01.472+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:51:12.388+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:51:13.947+0000 INFO  [API] Successfully started database
+2015-12-17 05:51:14.024+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:51:14.260 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2619ms
+2015-12-17 05:51:14.299+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:51:14.357+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:51:14.361 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:51:14.386 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:51:14.471 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:51:14.491 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:51:14.966 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:51:15.213 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:51:15.229 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:51:15.230 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:51:15.355 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:51:15.384 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@3ce3c882{HTTP/1.1}{localhost:7474}
+21:51:15.384 [main] INFO  org.eclipse.jetty.server.Server - Started @3748ms
+2015-12-17 05:51:15.385+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:51:15.385+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:56:09.909+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:56:09.918 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@3ce3c882{HTTP/1.1}{localhost:7474}
+21:56:09.920 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:56:09.922 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:56:09.922 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:56:09.923 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:56:09.923 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:56:09.924 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:56:09.930+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:56:09.982+0000 INFO  [API] Successfully stopped database
+2015-12-17 05:56:09.983+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 05:57:12.233+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:57:13.757+0000 INFO  [API] Successfully started database
+2015-12-17 05:57:13.839+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:57:14.075 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2935ms
+2015-12-17 05:57:14.112+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:57:14.161+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:57:14.166 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:57:14.192 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:57:14.282 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:57:14.306 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:57:14.838 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:57:15.049 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:57:15.070 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:57:15.071 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:57:15.174 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:57:15.197 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:57:15.198 [main] INFO  org.eclipse.jetty.server.Server - Started @4063ms
+2015-12-17 05:57:15.198+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:57:15.199+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 05:58:44.216+0000 INFO  [API] Neo4j Server shutdown initiated by request
+21:58:44.224 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:58:44.226 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+21:58:44.227 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+21:58:44.227 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+21:58:44.227 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+21:58:44.228 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+21:58:44.228 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 05:58:44.233+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 05:58:44.266+0000 ERROR [org.neo4j]: Exception when stopping org.neo4j.kernel.NeoStoreDataSource@347b466a Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@26e0588c, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@18891095]
+org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@26e0588c, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@18891095]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+2015-12-17 05:58:44.271+0000 ERROR [org.neo4j]: Exception when stopping org.neo4j.kernel.impl.transaction.state.DataSourceManager@56a4d408 Component 'org.neo4j.kernel.NeoStoreDataSource@347b466a' failed to stop. Please see attached cause exception.
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.NeoStoreDataSource@347b466a' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@26e0588c, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@18891095]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 13 more
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+2015-12-17 05:58:44.273+0000 ERROR [org.neo4j]: Lifecycle exception Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@6b5140e7' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+org.neo4j.kernel.lifecycle.LifecycleException: Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@6b5140e7' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:578)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:200)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: java.lang.IllegalStateException: Cannot close the PageCache while files are still mapped:
+	neostore.counts.db.a (1 mapping)
+	neostore (1 mapping)
+	neostore.relationshipgroupstore.db (1 mapping)
+	neostore.schemastore.db (1 mapping)
+	neostore.nodestore.db (1 mapping)
+	neostore.nodestore.db.labels (1 mapping)
+	neostore.relationshipstore.db (1 mapping)
+	neostore.propertystore.db (1 mapping)
+	neostore.propertystore.db.arrays (1 mapping)
+	neostore.propertystore.db.strings (1 mapping)
+	neostore.propertystore.db.index (1 mapping)
+	neostore.propertystore.db.index.keys (1 mapping)
+	neostore.labeltokenstore.db (1 mapping)
+	neostore.labeltokenstore.db.names (1 mapping)
+	neostore.relationshiptypestore.db (1 mapping)
+	neostore.relationshiptypestore.db.names (1 mapping)
+	at org.neo4j.io.pagecache.impl.muninn.MuninnPageCache.close(MuninnPageCache.java:483)
+	at org.neo4j.kernel.impl.pagecache.PageCacheLifecycle.shutdown(PageCacheLifecycle.java:42)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:574)
+	... 9 more
+2015-12-17 05:58:44.274+0000 ERROR [org.neo4j]: Chained lifecycle exception Component 'org.neo4j.kernel.impl.transaction.state.DataSourceManager@56a4d408' failed to stop. Please see attached cause exception.
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.state.DataSourceManager@56a4d408' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.NeoStoreDataSource@347b466a' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 10 more
+Caused by: org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@26e0588c, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@18891095]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 13 more
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+2015-12-17 05:58:44.281+0000 ERROR [API] Database did not stop cleanly. Reason [Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@6b5140e7' from STOPPED to SHUTTING_DOWN. Please see attached cause exception]
+2015-12-17 05:58:44.281+0000 ERROR [org.neo4j]: Exception when stopping org.neo4j.server.database.LifecycleManagingDatabase@66cf6d31 Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@6b5140e7' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+org.neo4j.kernel.lifecycle.LifecycleException: Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@6b5140e7' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:578)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:200)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: java.lang.IllegalStateException: Cannot close the PageCache while files are still mapped:
+	neostore.counts.db.a (1 mapping)
+	neostore (1 mapping)
+	neostore.relationshipgroupstore.db (1 mapping)
+	neostore.schemastore.db (1 mapping)
+	neostore.nodestore.db (1 mapping)
+	neostore.nodestore.db.labels (1 mapping)
+	neostore.relationshipstore.db (1 mapping)
+	neostore.propertystore.db (1 mapping)
+	neostore.propertystore.db.arrays (1 mapping)
+	neostore.propertystore.db.strings (1 mapping)
+	neostore.propertystore.db.index (1 mapping)
+	neostore.propertystore.db.index.keys (1 mapping)
+	neostore.labeltokenstore.db (1 mapping)
+	neostore.labeltokenstore.db.names (1 mapping)
+	neostore.relationshiptypestore.db (1 mapping)
+	neostore.relationshiptypestore.db.names (1 mapping)
+	at org.neo4j.io.pagecache.impl.muninn.MuninnPageCache.close(MuninnPageCache.java:483)
+	at org.neo4j.kernel.impl.pagecache.PageCacheLifecycle.shutdown(PageCacheLifecycle.java:42)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:574)
+	... 9 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.state.DataSourceManager@56a4d408' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	... 8 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.NeoStoreDataSource@347b466a' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 10 more
+Caused by: org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@26e0588c, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@18891095]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 13 more
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+Exception in thread "Thread-13" java.lang.RuntimeException: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.server.database.LifecycleManagingDatabase@66cf6d31' failed to stop. Please see attached cause exception.
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:57)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:590)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:221)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.server.database.LifecycleManagingDatabase@66cf6d31' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.server.AbstractNeoServer$6.run(AbstractNeoServer.java:616)
+	at org.neo4j.helpers.RunCarefully.run(RunCarefully.java:47)
+	... 2 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Failed to transition component 'org.neo4j.kernel.impl.pagecache.PageCacheLifecycle@6b5140e7' from STOPPED to SHUTTING_DOWN. Please see attached cause exception
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:578)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:200)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:700)
+	at org.neo4j.server.database.LifecycleManagingDatabase.stop(LifecycleManagingDatabase.java:128)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 5 more
+Caused by: java.lang.IllegalStateException: Cannot close the PageCache while files are still mapped:
+	neostore.counts.db.a (1 mapping)
+	neostore (1 mapping)
+	neostore.relationshipgroupstore.db (1 mapping)
+	neostore.schemastore.db (1 mapping)
+	neostore.nodestore.db (1 mapping)
+	neostore.nodestore.db.labels (1 mapping)
+	neostore.relationshipstore.db (1 mapping)
+	neostore.propertystore.db (1 mapping)
+	neostore.propertystore.db.arrays (1 mapping)
+	neostore.propertystore.db.strings (1 mapping)
+	neostore.propertystore.db.index (1 mapping)
+	neostore.propertystore.db.index.keys (1 mapping)
+	neostore.labeltokenstore.db (1 mapping)
+	neostore.labeltokenstore.db.names (1 mapping)
+	neostore.relationshiptypestore.db (1 mapping)
+	neostore.relationshiptypestore.db.names (1 mapping)
+	at org.neo4j.io.pagecache.impl.muninn.MuninnPageCache.close(MuninnPageCache.java:483)
+	at org.neo4j.kernel.impl.pagecache.PageCacheLifecycle.shutdown(PageCacheLifecycle.java:42)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:574)
+	... 9 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.state.DataSourceManager@56a4d408' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:185)
+	... 8 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.NeoStoreDataSource@347b466a' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:551)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:155)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.stop(DataSourceManager.java:137)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 10 more
+Caused by: org.neo4j.kernel.impl.store.UnderlyingStorageException: Unable to force ContractCheckingIndexProxy -> FlippableIndexProxy -> OnlineIndexProxy[accessor:org.neo4j.kernel.api.impl.index.UniqueLuceneIndexAccessor@26e0588c, descriptor::label[0](property[0])][target:org.neo4j.kernel.impl.api.index.IndexProxySetup$1@18891095]
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:809)
+	at org.neo4j.kernel.impl.transaction.log.LogRotationControl.forceEverything(LogRotationControl.java:55)
+	at org.neo4j.kernel.NeoStoreDataSource.stop(NeoStoreDataSource.java:1206)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:546)
+	... 13 more
+Caused by: java.io.FileNotFoundException: /Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/data/graph.db/schema/index/lucene/1/_6.cfs (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:503)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:336)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4557)
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3414)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3485)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3467)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexWriter.commit(LuceneIndexWriter.java:108)
+	at org.neo4j.kernel.api.impl.index.IndexWriterStatus.commitAsOnline(IndexWriterStatus.java:37)
+	at org.neo4j.kernel.api.impl.index.LuceneIndexAccessor.force(LuceneIndexAccessor.java:182)
+	at org.neo4j.kernel.impl.api.index.OnlineIndexProxy.force(OnlineIndexProxy.java:103)
+	at org.neo4j.kernel.impl.api.index.FlippableIndexProxy.force(FlippableIndexProxy.java:131)
+	at org.neo4j.kernel.impl.api.index.AbstractDelegatingIndexProxy.force(AbstractDelegatingIndexProxy.java:81)
+	at org.neo4j.kernel.impl.api.index.ContractCheckingIndexProxy.force(ContractCheckingIndexProxy.java:125)
+	at org.neo4j.kernel.impl.api.index.IndexingService.forceAll(IndexingService.java:805)
+	... 16 more
+2015-12-17 05:58:53.025+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 05:58:54.645+0000 INFO  [API] Successfully started database
+2015-12-17 05:58:54.698+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+21:58:54.970 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2685ms
+2015-12-17 05:58:55.022+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 05:58:55.080+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+21:58:55.084 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+21:58:55.111 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+21:58:55.192 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+21:58:55.214 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+21:58:55.723 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+21:58:55.914 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+21:58:55.933 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+21:58:55.934 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+21:58:56.035 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+21:58:56.055 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+21:58:56.056 [main] INFO  org.eclipse.jetty.server.Server - Started @3782ms
+2015-12-17 05:58:56.056+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 05:58:56.057+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 06:00:59.106+0000 INFO  [API] Neo4j Server shutdown initiated by request
+22:00:59.113 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+22:00:59.115 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+22:00:59.118 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+22:00:59.118 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+22:00:59.119 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+22:00:59.119 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+22:00:59.120 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 06:00:59.126+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 06:00:59.179+0000 INFO  [API] Successfully stopped database
+2015-12-17 06:00:59.179+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 06:01:52.184+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 06:01:53.826+0000 INFO  [API] Successfully started database
+2015-12-17 06:01:53.905+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+22:01:54.154 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @3030ms
+2015-12-17 06:01:54.194+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 06:01:54.266+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+22:01:54.269 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+22:01:54.297 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+22:01:54.372 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+22:01:54.396 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+22:01:54.935 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+22:01:55.149 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+22:01:55.171 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+22:01:55.173 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+22:01:55.301 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+22:01:55.333 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+22:01:55.333 [main] INFO  org.eclipse.jetty.server.Server - Started @4214ms
+2015-12-17 06:01:55.333+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 06:01:55.334+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 06:02:48.244+0000 INFO  [API] Neo4j Server shutdown initiated by request
+22:02:48.252 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+22:02:48.253 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+22:02:48.254 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+22:02:48.254 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+22:02:48.254 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+22:02:48.255 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+22:02:48.256 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 06:02:48.261+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 06:02:48.322+0000 INFO  [API] Successfully stopped database
+2015-12-17 06:02:48.322+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 06:03:02.593+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 06:03:04.194+0000 INFO  [API] Successfully started database
+2015-12-17 06:03:04.284+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+22:03:04.530 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2700ms
+2015-12-17 06:03:04.574+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 06:03:04.626+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+22:03:04.631 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+22:03:04.676 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+22:03:04.754 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+22:03:04.778 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+22:03:05.284 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+22:03:05.501 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+22:03:05.519 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+22:03:05.521 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+22:03:05.631 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+22:03:05.655 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+22:03:05.655 [main] INFO  org.eclipse.jetty.server.Server - Started @3832ms
+2015-12-17 06:03:05.655+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 06:03:05.656+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 06:17:20.836+0000 INFO  [API] Neo4j Server shutdown initiated by request
+22:17:20.849 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+22:17:20.851 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+22:17:20.852 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+22:17:20.852 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+22:17:20.852 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+22:17:20.853 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+22:17:20.853 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 06:17:20.857+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 06:17:20.917+0000 INFO  [API] Successfully stopped database
+2015-12-17 06:17:20.917+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 06:17:34.169+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 06:17:35.754+0000 INFO  [API] Successfully started database
+2015-12-17 06:17:35.828+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+22:17:36.096 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @2949ms
+2015-12-17 06:17:36.138+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 06:17:36.194+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+22:17:36.201 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+22:17:36.235 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+22:17:36.321 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+22:17:36.340 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+22:17:36.829 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+22:17:37.058 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+22:17:37.074 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+22:17:37.075 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+22:17:37.185 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+22:17:37.211 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4ba35076{HTTP/1.1}{localhost:7474}
+22:17:37.211 [main] INFO  org.eclipse.jetty.server.Server - Started @4070ms
+2015-12-17 06:17:37.211+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 06:17:37.212+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2015-12-17 06:30:42.704+0000 INFO  [API] Neo4j Server shutdown initiated by request
+22:30:42.710 [Thread-13] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4ba35076{HTTP/1.1}{localhost:7474}
+22:30:42.712 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@458c10d8{/,null,UNAVAILABLE}
+22:30:42.716 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,UNAVAILABLE}
+22:30:42.716 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,UNAVAILABLE}
+22:30:42.716 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,UNAVAILABLE}
+22:30:42.717 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,UNAVAILABLE}
+22:30:42.717 [Thread-13] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,UNAVAILABLE}
+2015-12-17 06:30:42.727+0000 INFO  [API] Successfully shutdown Neo4j Server.
+2015-12-17 06:30:42.830+0000 INFO  [API] Successfully stopped database
+2015-12-17 06:30:42.831+0000 INFO  [API] Successfully shutdown database.
+2015-12-17 06:53:19.993+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-17 06:53:21.844+0000 INFO  [API] Successfully started database
+2015-12-17 06:53:21.941+0000 INFO  [API] Starting HTTP on port :7474 with 4 threads available
+22:53:22.236 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @3157ms
+2015-12-17 06:53:22.298+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-17 06:53:22.351+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+22:53:22.356 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+22:53:22.381 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@649a4a5f{/,null,AVAILABLE}
+22:53:22.451 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+22:53:22.469 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1deeeebb{/webadmin,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+22:53:22.996 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@13915f14{/db/manage,null,AVAILABLE}
+22:53:23.240 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@29e5439d{/db/data,null,AVAILABLE}
+22:53:23.261 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+22:53:23.263 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@3a96fe74{/browser,jar:file:/Users/bradsanders/JobSearch/Challenges/Couchsurfing/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+22:53:23.397 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@458c10d8{/,null,AVAILABLE}
+22:53:23.445 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4a86504{HTTP/1.1}{localhost:7474}
+22:53:23.445 [main] INFO  org.eclipse.jetty.server.Server - Started @4372ms
+2015-12-17 06:53:23.446+0000 INFO  [API] Server started on: http://localhost:7474/
+2015-12-17 06:53:23.446+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
